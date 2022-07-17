@@ -6,4 +6,4 @@ app: FastAPI = FastAPI()
 
 @app.get("/")
 def get_root() -> Dict[str, str]:
-    return {"message": "Hello, World!"}
+    return {"message": "Hello, Tom!"}
